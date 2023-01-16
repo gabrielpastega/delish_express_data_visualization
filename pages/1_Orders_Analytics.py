@@ -121,7 +121,7 @@ def orders_central_region_map(df1):
 # ======================================================================================================
 
 # Loading Dataset
-df = pd.read_csv('data/train.csv')
+df = pd.read_csv('../data/train.csv')
 
 # cleaning the data
 df1 = clean_dataframe(df)
