@@ -148,7 +148,7 @@ def delivery_city_traffic_avg_std(df1):
 # ======================================================================================================
 
 # Loading Dataset
-df = pd.read_csv('/home/gabriel/repos/food_delivery_data_visualization/data/train.csv')
+df = pd.read_csv('data/train.csv')
 
 # cleaning the data
 df1 = clean_dataframe(df)
