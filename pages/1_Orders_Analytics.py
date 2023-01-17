@@ -139,15 +139,15 @@ st.sidebar.image(image, width=150)
 st.sidebar.markdown('# MENU')
 st.sidebar.markdown("""---""")
 
-st.sidebar.markdown('## Selecione a data limite')
-date_slider = st.sidebar.slider('Qual o valor?',
+st.sidebar.markdown('## Select the date')
+date_slider = st.sidebar.slider('Limit Date',
                   value=pd.datetime(2022, 4, 6),
                   min_value=pd.datetime(2022, 2, 11),
                   max_value=pd.datetime(2022, 4, 6),
                   format='DD-MM-YYYY')
 st.sidebar.markdown("""---""")
 
-traffic_options = st.sidebar.multiselect('Quais as condições de trânsito?', ['Low', 'Medium', 'High', 'Jam'], default=['Low', 'Medium', 'High', 'Jam'])
+traffic_options = st.sidebar.multiselect('Traffic conditions', ['Low', 'Medium', 'High', 'Jam'], default=['Low', 'Medium', 'High', 'Jam'])
 
 st.sidebar.markdown("""---""")
 
