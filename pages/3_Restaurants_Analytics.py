@@ -16,7 +16,7 @@ from PIL              import Image
 from haversine        import haversine, Unit
 from streamlit_folium import folium_static
 
-st.set_page_config(page_title='Restaurants', page_icon='🍽️', layout='wide')
+st.set_page_config(page_title='Restaurants', page_icon=':knife_fork_plate:', layout='wide')
 
 # ======================================================================================================
 # FUNCTIONS
