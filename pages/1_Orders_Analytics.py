@@ -130,7 +130,7 @@ df1 = clean_dataframe(df)
 # SIDEBAR
 # ======================================================================================================
 
-st.header('FOOD DELIVERY OVERVIEW')
+st.header('Delish Express Company Dashboard')
 
 #image_path = '/home/gabriel/repos/food_delivery_data_visualization/img/'
 image = Image.open('logo_food_delivery.png')
@@ -140,7 +140,7 @@ st.sidebar.markdown('# MENU')
 st.sidebar.markdown("""---""")
 
 st.sidebar.markdown('## Select the date')
-date_slider = st.sidebar.slider('Limit Date',
+date_slider = st.sidebar.slider('Limit date',
                   value=pd.datetime(2022, 4, 6),
                   min_value=pd.datetime(2022, 2, 11),
                   max_value=pd.datetime(2022, 4, 6),

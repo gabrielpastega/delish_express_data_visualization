@@ -102,7 +102,7 @@ df1 = clean_dataframe(df)
 # SIDEBAR
 # ======================================================================================================
 
-st.header('FOOD DELIVERY OVERVIEW')
+st.header('Delish Express Company Dashboard')
 
 #image_path = '/home/gabriel/repos/food_delivery_data_visualization/img/'
 image = Image.open('logo_food_delivery.png')
