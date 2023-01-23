@@ -13,7 +13,7 @@ from PIL              import Image
 from haversine        import haversine, Unit
 from streamlit_folium import folium_static
 
-st.set_page_config(page_title='Orders', page_icon='🍔', layout='wide')
+st.set_page_config(page_title='Orders', page_icon=':heavy_dollar_sign:', layout='wide')
 
 # ======================================================================================================
 # FUNCTIONS
