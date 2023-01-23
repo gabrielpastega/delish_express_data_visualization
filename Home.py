@@ -3,7 +3,7 @@ from PIL import Image
 
 st.set_page_config(
     page_title="Home",
-    page_icon="🚚",
+    page_icon=":bar_chart:",
     layout='wide'
 )
 
