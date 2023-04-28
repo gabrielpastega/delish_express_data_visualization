@@ -49,6 +49,8 @@ Develop a strategic dashboard using metrics that correspond to the 3 main views 
 Online dashboard hosted on a Cloud service and available for access from any device connected to the internet. 
 This dashboard can be accessed through the link https://food-delivery-data-visualization.streamlit.app
 
+https://user-images.githubusercontent.com/88066683/235245521-18e184eb-747b-4727-9426-e34b1a51603a.mp4
+
 # Conclusion
 The objective of this project is to create a set of graphs and/or tables that display these metrics in an easy and quick way for the CEO of the company. We can see that the number of orders grew between week 6 and week 13 of the year 2022.
 
