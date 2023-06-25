@@ -1,4 +1,4 @@
-DateTime==5.1
+DateTime==4.8
 folium==0.14.0
 geopy==2.3.0
 haversine==2.7.0
