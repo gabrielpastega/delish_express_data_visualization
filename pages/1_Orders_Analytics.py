@@ -144,7 +144,7 @@ date_slider = st.sidebar.slider('Limit date',
                   value=pd.datetime(2022, 4, 6),
                   min_value=pd.datetime(2022, 2, 11),
                   max_value=pd.datetime(2022, 4, 6),
-                  format='DD-MM-YYYY')
+                  format='DD/MM/YYYY')
 st.sidebar.markdown("""---""")
 
 traffic_options = st.sidebar.multiselect('Traffic conditions', ['Low', 'Medium', 'High', 'Jam'], default=['Low', 'Medium', 'High', 'Jam'])
