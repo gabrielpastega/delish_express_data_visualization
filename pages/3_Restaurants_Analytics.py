@@ -47,7 +47,7 @@ def clean_dataframe(df1):
     # data types conversion
     df1['Delivery_person_Ratings'] = df1['Delivery_person_Ratings'].astype(float)
     df1['Delivery_person_Age'] = df1['Delivery_person_Age'].astype(int)
-    df1['Order_Date'] = pd.to_datetime(df1['Order_Date'], format='%d-%m-%Y')
+    df1['Order_Date'] = pd.to_(df1['Order_Date'], format='%d-%m-%Y')
     df1['multiple_deliveries'] = df1['multiple_deliveries'].astype(int)
     
     # removing blank spaces
@@ -168,9 +168,9 @@ st.sidebar.markdown("""---""")
 
 st.sidebar.markdown('## Select the date')
 date_slider = st.sidebar.slider('Limit date',
-                  value=pd.datetime(2022, 4, 6),
-                  min_value=pd.datetime(2022, 2, 11),
-                  max_value=pd.datetime(2022, 4, 6),
+                  value=pd.Timestamp(2022, 4, 6),
+                  min_value=pd.Timestamp(2022, 2, 11),
+                  max_value=pd.Timestamp(2022, 4, 6),
                   format='DD-MM-YYYY')
 st.sidebar.markdown("""---""")
 
